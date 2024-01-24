@@ -174,12 +174,8 @@
       "track_widths": [
         0.0,
         0.3,
-        0.4,
         0.5,
-        0.6,
-        1.0,
-        1.5,
-        2.0
+        1.0
       ],
       "via_dimensions": [
         {
@@ -446,7 +442,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.3,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -529,6 +525,10 @@
     [
       "9c261024-c69f-48e3-a573-d08c538d0e71",
       ""
+    ],
+    [
+      "79a680dd-985e-478c-952b-149e21ae2203",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
