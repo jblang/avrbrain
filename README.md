@@ -37,16 +37,15 @@ The above example can be made to work with DxCore just by adding the line `frame
 
 ## Hardware Features
 - Onboard CH340C USB-to-serial converter with a micro-USB connector, and a switch to select between USB communication or programming via SerialUPDI.  
-- Onboard 3.3V regulator for MVIO. The board is configured to have 3.3V on PORTC and 5V on the other ports, but this can be swapped, or the board can be made to use a single voltage by cutting some traces and adding solder bridges on the appropriate jumper pads.
+- Onboard 3.3V regulator for MVIO. The board is configured to have 3.3V on PORTC and 5V on the other ports.
 - SD card holder connected to 3.3V SPI Bus, and an I2C RTC (PCF8563T) with battery backup via CR 1612 coin cell.
 - [UEXT port](https://www.olimex.com/Products/Modules/) that exports 3.3V UART, I2C, and SPI buses.  Many peripheral modules are available from Olimex.
 - [Qwiic I2C port](https://www.sparkfun.com/qwiic) to work with the Qwiic and Stemma QT ecosystems. Many peripheral modules are available from Sparkfun and Adafruit.
-- Headers breaking out 6 8-bit ports (ports A-E and G). Pin sockets can be used for stackable shield-style add-on boards, or pin headers can be used to connect to breadboards or elsewhere using IDC cables. Every signal has its own ground return opposite, so it should be possible to maintain pretty good signal integrity over IDC.
-- Port F is used for the USB UART, SD card chip select (level shifted), RTC interrupt, 32 kHz clock signals, and of course UPDI and Reset.
-- All of the RTC signals (including I2C) can be disconnected by cutting the traces in the jumper pads, and this can be undone by adding a solder bridge.
+- Headers breaking out all pins of the 8-bit ports A-G, except pin 7 of port F which is UPDI. Pin sockets can be used for stackable shield-style add-on boards, or pin headers can be used to connect to breadboards or elsewhere using IDC cables.
+- Port F is used for UPDI, Reset, the USB UART, SD card chip select (level shifted), and optionally the RTC's interrupt and 32 kHz clock signals.
+- The RTC's interrupt and 32 kHz clock signals can be connected to port F by adding a solder bridge on the surface mount jumper. The RTC can be disconnected from the I2C bus by cutting the traces in the SDA and SCL jumper pads in case of a conflict with other RTC devices.
 - UPDI header for use with a [PicKit](https://www.microchip.com/en-us/development-tool/pg164150) and [MPLAB X](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide) for debugging.
-- Same size as a Raspberry Pi Model B. However, it is not mechanically or electrically compatible.  The right-side mounting holes are on the corners though instead of toward the middle of the board, and no attempt has been made to reproduce the GPIO header pinout used on the Pi.
-- The board is two layer, but I've tried hard to maintain a good ground plane.
+- Same size as a Raspberry Pi Model B, though it is not mechanically or electrically compatible. The right-side mounting holes are on the corners instead of toward the middle of the board, and no attempt has been made to reproduce the GPIO header pinout used on the Pi.
 
 ## Relationship to z80ctrl NG
 
