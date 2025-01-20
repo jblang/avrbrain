@@ -599,6 +599,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC part number",
+          "name": "LCSC part number",
+          "show": false
         }
       ],
       "filter_string": "",

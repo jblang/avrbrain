@@ -108,10 +108,10 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -130,11 +130,11 @@
 			(psnegative no)
 			(psa4output no)
 			(plotreference yes)
-			(plotvalue yes)
+			(plotvalue no)
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
@@ -15967,7 +15967,7 @@
 		)
 		(fp_arc
 			(start 7.25 4.1)
-			(mid 6.682004 5.496828)
+			(mid 6.682004 5.496829)
 			(end 5.3 6.1)
 			(stroke
 				(width 0.05)
@@ -16022,7 +16022,7 @@
 		)
 		(fp_arc
 			(start 5.3 6.1)
-			(mid 4.714381 5.984481)
+			(mid 4.714387 5.984475)
 			(end 4.22 5.65)
 			(stroke
 				(width 0.05)
@@ -16114,7 +16114,7 @@
 		)
 		(fp_arc
 			(start 6.6 4.1)
-			(mid 6.222443 5.037354)
+			(mid 6.222442 5.03735)
 			(end 5.3 5.45)
 			(stroke
 				(width 0.1)
