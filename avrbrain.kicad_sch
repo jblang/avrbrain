@@ -9190,6 +9190,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C1525"
+			(at 88.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "209c2160-3a2b-4be6-99ae-f5138d386ea1")
 		)
@@ -9954,6 +9963,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C1525"
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1537f199-835e-4656-866c-7fd6e070a6be")
 		)
@@ -10016,6 +10034,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C1525"
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -10249,6 +10276,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C52923"
 			(at 214.63 74.93 0)
 			(effects
 				(font
@@ -10788,7 +10824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.33 62.23 0)
 			(effects
 				(font
@@ -10807,6 +10843,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C52923"
 			(at 100.33 62.23 0)
 			(effects
 				(font
@@ -10957,6 +11002,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C1525"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8dc4e0dc-74c6-4599-8458-381a3401dda6")
 		)
@@ -11000,7 +11054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.72 62.23 0)
 			(effects
 				(font
@@ -11019,6 +11073,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 45.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C52923"
 			(at 45.72 62.23 0)
 			(effects
 				(font
@@ -11163,6 +11226,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C12891"
+			(at 205.105 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fa61a1f-edea-4648-9556-11d92232368a")
 		)
@@ -11224,6 +11296,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 254 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C12891"
 			(at 254 74.93 0)
 			(effects
 				(font
@@ -11341,7 +11422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 62.23 0)
 			(effects
 				(font
@@ -11360,6 +11441,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C52923"
 			(at 66.04 62.23 0)
 			(effects
 				(font
@@ -11798,6 +11888,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC part number" "C52923"
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40dad669-b07d-4940-9377-28c40e6d700e")
 		)
@@ -11926,6 +12025,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C1525"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -12188,7 +12296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 25.4 62.23 0)
 			(effects
 				(font
@@ -12207,6 +12315,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part number" "C52923"
 			(at 25.4 62.23 0)
 			(effects
 				(font
