@@ -6066,7 +6066,6 @@
 	)
 	(label "UD+"
 		(at 111.76 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6077,7 +6076,6 @@
 	)
 	(label "USBTX"
 		(at 67.945 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6088,7 +6086,6 @@
 	)
 	(label "UD-"
 		(at 111.76 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6099,7 +6096,6 @@
 	)
 	(label "USBRX"
 		(at 67.945 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
