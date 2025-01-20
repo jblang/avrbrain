@@ -8399,7 +8399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom:JST_SM04B-SRSS-TB_LF__SN_"
+		(property "Footprint" "SamacSys_Parts:SM04B-SRSS-TB_LFSN_"
 			(at 246.38 134.62 0)
 			(effects
 				(font

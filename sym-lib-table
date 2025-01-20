@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "JS202011CQN")(type "KiCad")(uri "${KIPRJMOD}/JS202011CQN.kicad_sym")(options "")(descr ""))
+  (lib (name "SM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/SM04B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "U254-051T-4BH81-S2S")(type "KiCad")(uri "${KIPRJMOD}/U254-051T-4BH81-S2S.kicad_sym")(options "")(descr ""))
+  (lib (name "XKTF-0803-0")(type "KiCad")(uri "${KIPRJMOD}/XKTF-0803-0.kicad_sym")(options "")(descr ""))
+)
